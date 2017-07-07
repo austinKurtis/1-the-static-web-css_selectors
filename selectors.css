@@ -1,0 +1,48 @@
+header {
+	border: 1px solid red;
+
+}
+nav {
+	list-style-type: none;
+	text-decoration: none;
+}
+nav li {
+	display: inline-block;
+	margin: auto;
+	padding: auto;
+	width: 30%;
+}
+.disabled {
+	color: grey;
+}
+
+.disabled a {
+	color: purple;
+}
+.active {
+	color: yellow;
+}
+.red {
+	color: red;
+}
+.blue {
+	color: blue;
+}
+.bgRed{
+	background-color: red;
+}
+.bgBlue {
+	background-color: blue;
+}
+.grandparent > div {
+	border: 1px solid red;
+	border-radius: 10px;
+}
+.promo {
+	font-style: bold;
+	color: gold;
+}
+
+span input {
+	height: 25px;
+}
